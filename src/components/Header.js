@@ -6,7 +6,7 @@ import { faTwitter, faFacebok, faInst } from "@fortawesome/free-solid-svg-icons"
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='header container'>
             < Carousel data-bs-theme="dark"  >
                 <Carousel.Item >
                     <img
