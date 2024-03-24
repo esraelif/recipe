@@ -1,8 +1,14 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Sidebar = () => {
+const Sidebar = ({ links, close }) => {
     return (
-        <div>
+        <div className='sidebar' onClick={close}>
+            {links.map(link => (
+                <a className='sidebar-link' href="#!" key={link.name}>
+                    <FontAwesomeIcon icon={link.icon} />
+                    {link.name}</a>
+            ))}
 
         </div>
     );
