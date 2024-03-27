@@ -1,7 +1,4 @@
 import React from 'react';
-
-
-
 const ChiefSection = () => {
     return (
         <div className='section chiefs'>
@@ -9,7 +6,7 @@ const ChiefSection = () => {
             <div className="top-chiefs-container">
                 <div className="card">
                     <div className="left">
-                        <img src="https://media.istockphoto.com/id/1165683221/de/foto/chef-pr%C3%A4sentiert-etwas-auf-schwarzem-hintergrund.jpg?s=2048x2048&w=is&k=20&c=ifl9WEwIF2zr1HxeXT71gTINr_fM-CPecrBUcLeZdB0=" alt="" width="200px" />
+                        <img src="https://media.istockphoto.com/id/1165683221/photo/chef-presents-something-on-a-black-background.jpg?b=1&s=612x612&w=0&k=20&c=2PCt5CcFHAXvF3rAWhna0GlUSENtaEjONyjdoott2FA=" alt="" />
                     </div>
                     <div className="right">
                         <h4>Juan Carlos</h4>

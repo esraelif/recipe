@@ -1,0 +1,58 @@
+.search-item {
+    display: flex;
+    max-width: calc(30%);
+    max-height: calc(30%);
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    >div {
+
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin-bottom: 20px;
+        // border: 2px solid blue;
+
+        h3 {
+
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+
+        img {
+            margin-left: 10px;
+            max-width: 70%;
+            border-radius: 15px;
+            height: auto;
+        }
+
+        .ingredients {
+            display: none;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+
+
+        }
+    }
+
+    &.expanded {
+        >div {
+            width: calc(100%); // Genişletilmiş durumda bile aynı genişlikte kalacak
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        >div {
+            width: calc(50% - (20px * 2)); // Küçük ekranlarda iki sütuna düşecek şekilde ayarlanır
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.menu {
+    // border: 1px solid blue;
+    text-align: center;
+    margin-top: 4rem;
+
+
+
+    .btn {
+        border: 1px solid gray;
+        background-color: blueviolet;
+        margin-left: 20px;
+        box-shadow: 1 0 0 1 black;
+    }
+
+
+}
+
+// .kapsa {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 20px;
+// }
+
+.recipe-card {
+    flex: 0 0 calc(33.333% - 20px);
+    /* Kartların %33'ünü alacak, 20px boşluk bırakılacak */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .recipe-card {
+        flex: 0 0 calc(50% - 20px);
+        /* 768px altındaysa kartların %50'sini alacak, 20px boşluk bırakılacak */
+    }
+}
+
+
+
+
+.kapsa {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    /* Her bir kartın en az 250 piksel genişliğinde olmasını sağlar, ancak sayfa boyutuna göre sığdırabilir */
+    gap: 20px;
+    /* Kartlar arasındaki boşluk */
+}
+
+
+
+.recipe-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.recipe-card img {
+    // width: 100%;
+    // height: auto;
+    // border-radius: 4px;
+    margin-left: 10px;
+    max-width: 70%;
+    border-radius: 15px;
+    height: auto;
+}
