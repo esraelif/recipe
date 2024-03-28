@@ -1,18 +1,27 @@
-h1 {
-    text-align: center;
-    margin-top: 50px;
+.calory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
-}
 
-p {
-    text-align: center;
-    font-size: 24px;
-    color: blueviolet;
-    font-weight: bold;
-}
+    h1 {
+        font-weight: bold;
+        margin-top: 60px;
 
-.photo {
-    margin-left: 400px;
-    height: 650px;
-    width: 650px;
+    }
+
+    p {
+        margin-top: 40px;
+        font-size: 24px;
+        color: blueviolet;
+
+    }
+
+    .photo {
+        margin-top: 30px;
+
+        height: 850px;
+        width: 850px;
+    }
 }

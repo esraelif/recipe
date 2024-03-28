@@ -22,14 +22,14 @@ const RecipeProvider = ({ children }) => {
     const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${mealType}`;
 
     console.log(url)
-    const getData = async (mealType) => {
-        try {
-            const response = await axios.get(`https://api.edamam.com/search?q=&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${mealType}`);
-            setRecipes(response.data.hits);
-        } catch (error) {
-            console.error("Error fetching data:", error);
-        }
-    };
+
+    const getData = async (searchValue) => {
+        const url = `https://api.edamam.com/search?q=${searchValue}&app_id=${APP_ID}&app_key=${APP_KEY}`;
+        const { data } = await axios.get(url);
+        console.log(data.hits);
+        setRecipes(data.hits);
+    }
+
 
 
 

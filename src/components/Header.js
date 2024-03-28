@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from 'react-bootstrap/Carousel';
 import { faTwitter, faFacebok, faInst } from "@fortawesome/free-solid-svg-icons"
 
 
@@ -35,7 +34,7 @@ const Header = () => {
                     alt="Third slide" />
                 <img className="d-block w-800" src="https://images.pexels.com/photos/6287261/pexels-photo-6287261.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Third slide" />
-                <img className="d-block w-800" src="https://images.pexels.com/photos/8851929/pexels-photo-8851929.jpeg?cs=srgb&dl=pexels-yaroslav-shuraev-8851929.jpg&fm=jpg&_gl=1*1by046j*_ga*OTMwNDgzMzUyLjE3MDA3NDg4ODM.*_ga_8JE65Q40S6*MTcxMTI3MTU3MC4yNy4xLjE3MTEyNzI3NzkuMC4wLjA."
+                <img className="d-block w-800" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Third slide" />
                 <img className="d-block w-800" src="https://images.pexels.com/photos/5946966/pexels-photo-5946966.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Third slide" />

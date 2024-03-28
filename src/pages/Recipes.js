@@ -15,7 +15,8 @@ const Recipes = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        getData()
+        getData(searchValue)
+
     }
 
 

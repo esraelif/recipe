@@ -5,7 +5,7 @@ const Register = () => {
     return (
         <div className='register'>
             <div className="signup">
-                <p>To discover <br /> all recipe <br /> for <span style={{ fontSize: "46px" }}> Free</span></p>
+                <p>To discover  all recipe <br /> for <span style={{ fontSize: "46px" }}> Free</span></p>
                 <button><Link to="/signup">SIGN UP</Link></button>
                 <p style={{ fontSize: "26px" }}>OR</p>
                 <button><Link to="/login">LOGIN</Link></button>
