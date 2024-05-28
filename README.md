@@ -1,3 +1,4 @@
+![RecipeApp](https://github.com/esraelif/recipe/blob/main/src/assets/tastemap.jpg)
 Build a Recipe App using ReactJS.
 
 06 - Recipe App (folder)
